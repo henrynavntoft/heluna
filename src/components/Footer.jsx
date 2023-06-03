@@ -16,7 +16,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="p-4 text-center">
+    <footer className=" text-center p-4 my-4 border border-black">
       <p>
         &copy; {new Date().getFullYear()}{" "}
         <span className="font-semibold">HELUNA</span>. All rights reserved.

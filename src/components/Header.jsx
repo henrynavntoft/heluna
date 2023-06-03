@@ -1,9 +1,13 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4">
-      <h1 className="text-2xl font-semibold">HELUNA</h1>
+    <header className="flex justify-between items-center p-4 my-4 border border-black">
+      <Link href="/" className="text-2xl font-semibold">
+        HELUNA
+      </Link>
       <nav>
-        <a className="text-xl">MENU</a>
+        <a className="text-xl font-semibold">MENU</a>
       </nav>
     </header>
   );

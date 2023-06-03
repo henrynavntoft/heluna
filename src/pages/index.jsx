@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout";
 import About from "@/components/About";
+import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 import Head from "next/head";
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Layout>
         <About />
+
         <Contact />
       </Layout>
     </>
