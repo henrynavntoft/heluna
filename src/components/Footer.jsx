@@ -16,12 +16,12 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className=" text-center p-4 my-4 border border-black">
-      <p>
+    <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 mt-4 border-2 text-primary border-primary bg-secondary rounded">
+      <p className="mb-4 md:mb-0">
         &copy; {new Date().getFullYear()}{" "}
         <span className="font-semibold">HELUNA</span>. All rights reserved.
       </p>
-      <p>
+      <p className="text-accent">
         {date
           ? `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`
           : ""}

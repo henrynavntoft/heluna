@@ -9,13 +9,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#e6e6e6",
+        secondary: "#1a1a1a",
+        accent: "#7fff00;",
+      },
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
-      },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
