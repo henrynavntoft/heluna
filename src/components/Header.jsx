@@ -9,7 +9,7 @@ export default function Header() {
           HELUNA
         </span>
       </Link>
-      <nav className="flex space-x-10 justify-center items-center">
+      <nav className="flex space-x-4 justify-center items-center">
         <Link href="/">
           <span className="font-semibold cursor-pointer hover:text-accent hidden md:visible">
             About

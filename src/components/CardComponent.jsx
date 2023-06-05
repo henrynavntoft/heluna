@@ -4,7 +4,7 @@ const CardComponent = ({ href, title, description, buttonText, svgPath }) => (
   <a
     href={href}
     target="_blank"
-    className="group relative block h-80 sm:h-80 lg:h-96 text-primary"
+    className="group relative block h-96 sm:h-96 lg:h-96 text-primary"
   >
     <span className="absolute inset-0 border-2 border-dashed border-secondary rounded-lg"></span>
 
