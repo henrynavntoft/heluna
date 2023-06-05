@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
-        <section className="flex flex-col gap-4">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <CardComponent
             href="https://github.com/henrynavntoft"
             title="About Me"
@@ -36,6 +36,24 @@ export default function Home() {
             title="LinkedIn"
             description="Find me on LinkedIn"
             buttonText="Go to LinkedIn"
+          />
+          <CardComponent
+            href=""
+            title="Fill"
+            description="Fill"
+            buttonText="Fill"
+          />
+          <CardComponent
+            href=""
+            title="Fill"
+            description="Fill"
+            buttonText="Fill"
+          />
+          <CardComponent
+            href=""
+            title="Fill"
+            description="Fill"
+            buttonText="Fill"
           />
         </section>
       </Layout>

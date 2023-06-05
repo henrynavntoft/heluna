@@ -6,9 +6,9 @@ const CardComponent = ({ href, title, description, buttonText, svgPath }) => (
     target="_blank"
     className="group relative block h-80 sm:h-80 lg:h-96 text-primary"
   >
-    <span className="absolute inset-0 border-2 border-dashed border-secondary rounded"></span>
+    <span className="absolute inset-0 border-2 border-dashed border-secondary rounded-lg"></span>
 
-    <div className="relative flex h-full transform items-end border-2 border-secondary bg-secondary transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2 rounded">
+    <div className="relative flex h-full transform items-end border-2 border-secondary bg-secondary transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2 rounded-lg">
       <div className="p-4 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0 sm:p-6 lg:p-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
