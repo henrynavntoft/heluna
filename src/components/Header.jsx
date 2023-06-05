@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-4 mb-4 border-2 rounded-lg text-primary border-primary bg-secondary">
       <Link href="/">
-        <span className="text-2xl font-semibold text-accent cursor-pointer">
+        <span className="text-2xl font-semibold text-primary cursor-pointer">
           HELUNA
         </span>
       </Link>
