@@ -20,7 +20,7 @@ export default function Header() {
             Works
           </span>
         </Link>
-        <Button href="mailto:info@heluna.dk" buttonText="Contact" />
+        <Button href="mailto:info@heluna.dk" buttonText="CONTACT" />
       </nav>
     </header>
   );

@@ -17,14 +17,14 @@ export default function Footer() {
 
   return (
     <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 mt-4 border-2 text-primary border-primary bg-secondary rounded-lg">
-      <p className="mb-4 md:mb-0">
-        &copy; {new Date().getFullYear()}{" "}
-        <span className="font-semibold">HELUNA</span>. All rights reserved.
-      </p>
-      <p className="text-accent">
+      <p className="m-2 text-accent ">
         {date
           ? `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`
           : ""}
+      </p>
+      <p className="m-2">
+        &copy; {new Date().getFullYear()}{" "}
+        <span className="font-semibold">HELUNA</span>. All rights reserved.
       </p>
     </footer>
   );
