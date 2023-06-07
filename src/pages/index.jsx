@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>HELUNA | AGENCY</title>
         <meta
@@ -41,6 +41,6 @@ export default function Home() {
           />
         </section>
       </Layout>
-    </>
+    </div>
   );
 }
