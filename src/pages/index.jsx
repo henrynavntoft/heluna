@@ -28,7 +28,7 @@ export default function Home() {
             buttonText="READ MY BLOG"
           />
           <CardComponent
-            href="https://henrynavntoft.github.io/PPW/"
+            href="https://henrynavntoft.github.io/personal-website/"
             title="Personal Website"
             description="Dive into my digital realm - a showcase of my front-end development portfolio, tech insights, and personal journey. Build purely in Vanilla HTML, CSS and JavaScript."
             buttonText="PERSONAL WEBSITE"
