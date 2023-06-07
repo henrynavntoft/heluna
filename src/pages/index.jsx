@@ -22,7 +22,7 @@ export default function Home() {
             buttonText="GO TO LINKEDIN"
           />
           <CardComponent
-            href=""
+            href="/blog"
             title="Blog"
             description="Explore my blog for insights into the latest trends in front-end development and digital marketing. Engage with my thoughts and perspectives on the evolving tech landscape."
             buttonText="READ MY BLOG"
