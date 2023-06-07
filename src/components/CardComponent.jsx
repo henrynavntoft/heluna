@@ -33,9 +33,7 @@ const CardComponent = ({ href, title, description, buttonText, svgPath }) => (
 
         <p className="mt-4 text-sm sm:text-base">{description}</p>
 
-        <p className="mt-8 text-primary border-2 border-accent inline-block px-4 py-2 rounded-lg">
-          {buttonText}
-        </p>
+        <p className="mt-8 text-accent">{buttonText}</p>
       </div>
     </div>
   </a>
