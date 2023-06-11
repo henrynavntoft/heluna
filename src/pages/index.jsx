@@ -21,6 +21,7 @@ export default function Home() {
         });
     `}
       </Script>
+
       <Head>
         <title>HELUNA | AGENCY</title>
         <meta
