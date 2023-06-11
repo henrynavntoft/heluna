@@ -1,24 +1,10 @@
 import Layout from "@/components/Layout";
 import CardComponent from "@/components/CardComponent";
 import Head from "next/head";
-import Script from "next/script";
 
 export default function Home() {
   return (
     <div>
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-MJBN3X1TSW"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-MJBN3X1TSW');
-        `}
-      </Script>
       <Head>
         <title>HELUNA | AGENCY</title>
         <meta
