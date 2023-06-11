@@ -7,19 +7,18 @@ export default function Home() {
   return (
     <div>
       <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-MJBN3X1TSW"
       />
 
-      <Script id="gtag-manager" strategy="lazyOnload">
+      <Script id="G-MJBN3X1TSW">
         {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-        page_path: window.location.pathname,
-        });
-    `}
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MJBN3X1TSW');
+`}
       </Script>
 
       <Head>
