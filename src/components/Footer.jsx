@@ -16,7 +16,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 mt-4 border-2 text-primary border-primary bg-secondary rounded-lg">
+    <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 m -4  text-primary  bg-secondary ">
       <p className="m-2 text-accent ">
         {date
           ? `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`
@@ -24,7 +24,7 @@ export default function Footer() {
       </p>
       <p className="m-2">
         &copy; {new Date().getFullYear()}{" "}
-        <span className="font-semibold">HELUNA</span>. All rights reserved.
+        <span className="font-bold">HELUNA</span>
       </p>
     </footer>
   );

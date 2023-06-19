@@ -1,6 +1,5 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   purge: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,13 +9,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#37352f",
-        secondary: "#ffffff",
+        primary: "#1a1a1a",
+        secondary: "#fff",
         accent: "#FF602C;",
       },
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
+      transitionProperty: {
+        height: "height",
+        spacing: "margin, padding",
+      },
+      transitionDuration: {
+        DEFAULT: "200ms",
+        500: "500ms",
+      },
+    },
+  },
+  variants: {
+    extend: {
+      opacity: ["responsive", "hover", "focus", "active", "group-hover"],
+      translate: ["responsive", "hover", "focus", "active", "group-hover"],
+      rotate: ["responsive", "hover", "focus", "active", "group-hover"],
+      transform: ["hover", "focus"],
     },
   },
   plugins: [],

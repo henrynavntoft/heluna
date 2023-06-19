@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import CardComponent from "@/components/CardComponent";
 import Head from "next/head";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -14,7 +15,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Layout>
-        <section className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
+        <Hero />
+
+        {/* <section className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
           <CardComponent
             href="https://www.linkedin.com/in/henry-lundberg-navntoft/"
             title="About me"
@@ -39,7 +42,7 @@ export default function Home() {
             description="Discover FooFest, a comprehensive app designed and built as my capstone project during my 3rd semester at KEA. It celebrates the vibrancy of a hypothetical festival while demonstrating my ability to bring a concept to life. The app, created using React, Tailwind, and Next.js. Click below to explore the energy of FooFest and the technical finesse that went into creating it."
             buttonText="EXPLORE FOOFEST"
           />
-        </section>
+        </section> */}
       </Layout>
     </div>
   );
