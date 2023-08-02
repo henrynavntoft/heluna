@@ -1,7 +1,8 @@
 import Layout from "@/components/Layout";
-import CardComponent from "@/components/CardComponent";
+import USP from "@/components/USP";
 import Head from "next/head";
 import Hero from "@/components/Hero";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -16,33 +17,8 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
-
-        {/* <section className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4">
-          <CardComponent
-            href="https://www.linkedin.com/in/henry-lundberg-navntoft/"
-            title="About me"
-            description="With a passion for digital solutions, I work at the intersection of creativity and technology as a Front-End Developer and Marketing Professional. I specialize in React, Tailwind, and Next.js, harnessing their power to build intuitive and engaging digital experiences. I bring a deep understanding of Shopify, having worked extensively with Liquid and JSON to optimize eCommerce platforms. Dive in to learn more about my work and my journey."
-            buttonText="GO TO LINKEDIN"
-          />
-          <CardComponent
-            href="/blog"
-            title="Blog"
-            description="Explore my blog for insights into the latest trends in front-end development and digital marketing. Engage with my thoughts and perspectives on the evolving tech landscape."
-            buttonText="READ MY BLOG"
-          />
-          <CardComponent
-            href="https://henrynavntoft.github.io/personal-website/"
-            title="Personal Website"
-            description="Dive into my digital realm - a showcase of my front-end development portfolio, tech insights, and personal journey. Build purely in Vanilla HTML, CSS and JavaScript."
-            buttonText="PERSONAL WEBSITE"
-          />
-          <CardComponent
-            href="https://github.com/henrynavntoft/frontend_foofest"
-            title="FooFest App"
-            description="Discover FooFest, a comprehensive app designed and built as my capstone project during my 3rd semester at KEA. It celebrates the vibrancy of a hypothetical festival while demonstrating my ability to bring a concept to life. The app, created using React, Tailwind, and Next.js. Click below to explore the energy of FooFest and the technical finesse that went into creating it."
-            buttonText="EXPLORE FOOFEST"
-          />
-        </section> */}
+        <USP />
+        <Contact />
       </Layout>
     </div>
   );
