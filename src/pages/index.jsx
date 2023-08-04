@@ -18,7 +18,6 @@ export default function Home() {
       <Layout>
         <Hero />
         <USP />
-        <Contact />
       </Layout>
     </div>
   );

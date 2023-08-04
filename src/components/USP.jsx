@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function USP() {
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+    <section className="py-10 bg-white">
+      <div className="px-8">
         {/* Add negative margin to create consistent spacing */}
-        <div className="flex flex-wrap mx-4 justify-center">
-          <div className="w-full lg:w-1/3 px-4 mb-8 rounded-lg">
+        <div className="flex flex-wrap justify-center">
+          <div className="w-full lg:w-1/3 mb-8  px-4 rounded-lg">
             {/* Graphic or image for the first USP */}
             <div className="flex items-center justify-center mb-4">
               <Image
@@ -26,7 +26,7 @@ export default function USP() {
               & Shopify, men er ikke bange for nye udfordringer.
             </p>
           </div>
-          <div className="w-full lg:w-1/3 px-4 mb-8 rounded-lg">
+          <div className="w-full lg:w-1/3 mb-8 px-4 rounded-lg">
             {/* Graphic or image for the second USP */}
             <div className="flex items-center justify-center mb-4">
               <Image
@@ -45,7 +45,7 @@ export default function USP() {
               med Google, Facebook, Instagram, LinkedIn, etc.
             </p>
           </div>
-          <div className="w-full lg:w-1/3 px-4 mb-8 rounded-lg">
+          <div className="w-full lg:w-1/3 mb-8 px-4 rounded-lg">
             {/* Graphic or image for the third USP */}
             <div className="flex items-center justify-center mb-4">
               <Image

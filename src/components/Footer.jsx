@@ -16,7 +16,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 m -4  text-primary  bg-secondary ">
+    <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 m-4  text-primary  bg-secondary ">
       <p className="m-2 text-accent ">
         {date
           ? `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`
