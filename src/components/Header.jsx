@@ -22,12 +22,12 @@ export default function Header() {
         }`}
       >
         <Link href="/about">
-          <span className="cursor-pointer hover:underline">About</span>
+          <span className="cursor-pointer hover:underline">OM</span>
         </Link>
         <Link href="/works">
-          <span className="cursor-pointer hover:underline">Works</span>
+          <span className="cursor-pointer hover:underline">CASES</span>
         </Link>
-        <Button href="/contact" buttonText="CONTACT" />
+        <Button href="/contact" buttonText="KONTAKT OS" />
       </nav>
       <div className="md:hidden cursor-pointer z-20" onClick={toggleMenu}>
         <span
@@ -35,18 +35,18 @@ export default function Header() {
             isOpen ? "text-primary" : ""
           }`}
         >
-          {isOpen ? "CLOSE" : "MENU"}
+          {isOpen ? "LUK" : "MENU"}
         </span>
       </div>
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-secondary text-primary flex flex-col items-center justify-center space-y-8 z-10 md:hidden">
           <Link href="/about">
-            <span className="cursor-pointer">About</span>
+            <span className="cursor-pointer">OM</span>
           </Link>
           <Link href="/works">
-            <span className="cursor-pointer">Works</span>
+            <span className="cursor-pointer">CASES</span>
           </Link>
-          <Button href="/contact" buttonText="CONTACT" />
+          <Button href="/contact" buttonText="KONTAKT OS" />
         </div>
       )}
     </header>

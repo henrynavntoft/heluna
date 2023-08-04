@@ -8,17 +8,17 @@ export default function Contact() {
       <div className="relative container mx-auto px-4">
         <div className="flex flex-wrap mx-4">
           <div className="w-full px-4">
-            <h2 className="text-4xl font-semibold mb-8">Contact Us</h2>
+            <h2 className="text-4xl font-semibold mb-8">Kontakt Os</h2>
             <p className="text-lg leading-relaxed mb-8">
-              You can get in touch with us for any inquiries, project
-              collaborations, or just to say hello! We would love to hear from
-              you.
+              Du kan kontakte os angående eventuelle forespørgsler,
+              samarbejdsprojekter eller bare for at sige hej! Vi vil elske at
+              høre fra dig.
             </p>
 
             <form>
               <div className="mb-4">
                 <label className="block text-lg font-semibold mb-2">
-                  Your Name
+                  Dit Navn
                 </label>
                 <input
                   type="text"
@@ -29,7 +29,7 @@ export default function Contact() {
               </div>
               <div className="mb-4">
                 <label className="block text-lg font-semibold mb-2">
-                  Your Email
+                  Din Email
                 </label>
                 <input
                   type="email"
@@ -40,7 +40,7 @@ export default function Contact() {
               </div>
               <div className="mb-8">
                 <label className="block text-lg font-semibold mb-2">
-                  Message
+                  Besked
                 </label>
                 <textarea
                   name="message"
@@ -52,7 +52,7 @@ export default function Contact() {
               <Button
                 href="#"
                 textColor="text-primary"
-                buttonText="SEND MESSAGE"
+                buttonText="SEND BEKSED"
               />
             </form>
           </div>

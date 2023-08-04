@@ -11,7 +11,8 @@ module.exports = {
       colors: {
         primary: "#1a1a1a",
         secondary: "#fff",
-        accent: "#FF602C;",
+        accent: "#1b6679;",
+        accent2: "#89b6c5;",
       },
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
