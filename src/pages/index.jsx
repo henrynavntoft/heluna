@@ -2,6 +2,8 @@ import Layout from "@/components/Layout";
 import USP from "@/components/USP";
 import Head from "next/head";
 import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -17,7 +19,10 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
+        <Services />
+        <Clients />
         <USP />
+        <Contact />
       </Layout>
     </div>
   );

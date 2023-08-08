@@ -4,6 +4,8 @@ import Image from "next/image";
 export default function USP() {
   return (
     <section className="py-10 bg-white">
+      <h2 className="text-4xl font-semibold mb-8 text-center">Our Strengths</h2>
+      <hr className="pb-4" />
       <div className="px-8">
         {/* Add negative margin to create consistent spacing */}
         <div className="flex flex-wrap justify-center">

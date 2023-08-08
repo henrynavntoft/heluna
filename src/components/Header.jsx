@@ -10,7 +10,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-between items-center p-4 m-4 text-primary border-primary bg-secondary">
+    <header className="flex justify-between items-center p-8 text-primary border-primary bg-grey">
       <Link href="/" className="z-20">
         <span className="text-2xl font-bold text-primary cursor-pointer">
           HELUNA
@@ -22,12 +22,12 @@ export default function Header() {
         }`}
       >
         <Link href="/about">
-          <span className="cursor-pointer hover:underline">OM</span>
+          <span className="cursor-pointer hover:underline">SERVICES</span>
         </Link>
         <Link href="/works">
-          <span className="cursor-pointer hover:underline">CASES</span>
+          <span className="cursor-pointer hover:underline">WORK</span>
         </Link>
-        <Button href="/contact" buttonText="KONTAKT OS" />
+        <Button href="/contact" buttonText="CONTACT" />
       </nav>
       <div className="md:hidden cursor-pointer z-20" onClick={toggleMenu}>
         <span
@@ -41,12 +41,12 @@ export default function Header() {
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-secondary text-primary flex flex-col items-center justify-center space-y-8 z-10 md:hidden">
           <Link href="/about">
-            <span className="cursor-pointer">OM</span>
+            <span className="cursor-pointer">SERVICES</span>
           </Link>
           <Link href="/works">
-            <span className="cursor-pointer">CASES</span>
+            <span className="cursor-pointer">WORK</span>
           </Link>
-          <Button href="/contact" buttonText="KONTAKT OS" />
+          <Button href="/contact" buttonText="CONTACT" />
         </div>
       )}
     </header>
